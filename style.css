@@ -1,0 +1,29 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  background-color: blueviolet;
+}
+
+.btn {
+  color: blueviolet;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  margin: 10px 0 0 0;
+  text-align: center;
+  user-select: none;
+}
+
+.notificationArea {
+  padding: 20px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+}
